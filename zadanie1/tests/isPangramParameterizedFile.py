@@ -1,5 +1,5 @@
 import unittest
-from sample.isPangram import *
+from src.sample.isPangram import *
 
 class isPangramParameterizedFile(unittest.TestCase):
 
