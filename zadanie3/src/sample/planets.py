@@ -25,3 +25,8 @@ class Planets:
                 return format(age / (earth_year * 164.79132), '.2f')
             else:
                 raise Exception("Niepoprawna nazwa planety")
+
+planets = Planets()
+
+print(planets.func(1000000000, "Uran"))
+print(planets.func(1000000000, "Neptun"))
